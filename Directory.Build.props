@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup>
+    <Reference>
+      <Private>False</Private>
+    </Reference>
+    <ProjectReference>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <PropertyGroup>
+    <OutputPath>.\bin\</OutputPath>
+    <OutDir>.\bin\</OutDir>
+    <CopyRetryCount>0</CopyRetryCount>
+  </PropertyGroup>
+  <Import Project=".\Directory.Build.user.props" Condition="Exists('.\Directory.Build.user.props')" />
+</Project>
