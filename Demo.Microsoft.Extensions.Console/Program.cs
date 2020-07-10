@@ -9,7 +9,7 @@ namespace Demo.Microsoft.Extensions.CLI
     {
         private static async Task<int> Main()
         {
-            var configuration = new ConfigurationBuilder()
+            IConfigurationRoot configuration = new ConfigurationBuilder()
                 .AddJsonFile("configuration.json")
                 .Build();
 
