@@ -1,0 +1,6 @@
+﻿{
+  "Demo" : {
+    "Banner": "Hello world!",
+    "Arguments" :  [ "first", "second", "third"] 
+  }
+}
